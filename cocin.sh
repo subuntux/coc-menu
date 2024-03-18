@@ -51,12 +51,14 @@ setup_node() {
             echo "[+] Start Setup (Ubuntu/Debian)"
             echo " "
             sudo apt install nodejs -y
-            sudo apt install npm
+            sudo apt install npm -y
+            sudo apt install git -y
             ;;
         2)
             echo "[+] Start Setup (Termux)"
             echo " "
-            pkg install nodejs
+            pkg install nodejs -y
+            pkg install git -y
             ;;
         0)
             exit 0
