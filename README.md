@@ -3,8 +3,8 @@
 Downlaod
 
 ```bash
-wget https://raw.githubusercontent.com/subuntux/coc-menu/main/coc.sh
 cd $HOME
+wget https://raw.githubusercontent.com/subuntux/coc-menu/main/coc.sh
 chmod +x coc.sh
 ./coc.sh
 ```
