@@ -4,9 +4,9 @@ Downlaod
 
 ```bash
 cd $HOME
-wget https://raw.githubusercontent.com/subuntux/coc-menu/main/cocin.sh
-chmod +x cocin.sh
-./cocin.sh
+wget https://raw.githubusercontent.com/subuntux/coc-menu/main/cocin
+chmod +x cocin
+./cocin
 ```
 
 Select All Options
