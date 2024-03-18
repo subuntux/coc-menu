@@ -5,6 +5,7 @@ select_option() {
     echo "[1] Setup nodejs/npm"
     echo "[2] Setup nvim"
     echo "[3] Install coc-settings"
+    echo "[4] Install vim-plug (after [3])"
     echo "[0] Exit"
     
     read -p "select: " option1
@@ -26,6 +27,10 @@ select_option() {
             ;;
         0)
             exit 0
+            ;;
+        4)
+            curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
             ;;
         *)
             echo "Invalid Option"
