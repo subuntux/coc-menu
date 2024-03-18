@@ -18,9 +18,11 @@ select_option() {
             ;;
         3)
             cd $HOME
+            mkdir .config
             wget https://raw.githubusercontent.com/subuntux/coc-menu/main/settings/coc-nvim.tar.xz
             tar -xJf coc-nvim.tar.xz
             rm coc-nvim.tar.xz
+            mv nvim .config/
             ;;
         0)
             exit 0
