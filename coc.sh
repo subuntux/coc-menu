@@ -17,7 +17,10 @@ select_option() {
             setup_nvim
             ;;
         3)
-            wget 
+            cd $HOME
+            wget https://raw.githubusercontent.com/subuntux/coc-menu/main/settings/coc-nvim.tar.xz
+            tar -xJf coc-nvim.tar.xz
+            rm coc-nvim.tar.xz
             ;;
         0)
             exit 0
